@@ -1,0 +1,39 @@
+\mode<presentation>
+
+\definecolor{uscred}{HTML}{990000} % Definition of red color
+\definecolor{uscyellow}{HTML}{FFC72C} % Definition of yellow color
+
+\setbeamercolor{structure}{fg = uscred, bg = uscyellow}
+%\setbeamercolor{local structure}{parent=structure}
+
+% Main title-bar colors
+\setbeamercolor{palette primary}{fg = black, bg = uscyellow} % frame title
+\setbeamercolor{palette secondary}{fg = black, bg = uscyellow}
+\setbeamercolor{palette tertiary}{fg=white, bg=uscred}
+\setbeamercolor{palette quaternary}{fg=white,bg=uscred}
+
+\setbeamercolor{titlelike}{parent=palette tertiary}
+
+% Inner block colors
+\setbeamercolor{block title}{fg = uscred, bg = uscyellow}
+\setbeamercolor{block title alerted}{use=alerted text, fg=uscred, bg=alerted text.fg!75!bg}
+\setbeamercolor{block title example}{use=example text, fg=uscred, bg=example text.fg!75!bg}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=block title.bg!25!bg}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title alerted.bg!25!bg}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title example.bg!25!bg}
+
+%\setbeamercolor{sidebar}{bg=uigold!70}
+%  
+%\setbeamercolor{palette sidebar primary}{fg=black}
+%\setbeamercolor{palette sidebar secondary}{fg=uigold!75}
+%\setbeamercolor{palette sidebar tertiary}{fg=uigold!75}
+%\setbeamercolor{palette sidebar quaternary}{fg=uigold}
+
+\setbeamercolor{item}{fg=uscred}
+
+\setbeamercolor{description item}{fg=blue}
+
+
+
+\mode<all>
